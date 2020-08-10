@@ -9,6 +9,6 @@ class TimeMod(loader.Module):
 	@loader.sudo
 	async def tucmd(self, message):
 	    """by kamikazde3113 (Telegram)"""
-	    await message.edit(time.time())
+	    await message.edit(str(time.time()))
 	async def yearcmd(self, message):
 	    await message.edit("Сейсчас 2020 но он более известный как \n" + "<b>Короновирусный год</b>")
