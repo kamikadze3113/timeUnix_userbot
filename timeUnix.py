@@ -11,4 +11,4 @@ class TimeMod(loader.Module):
 	    """by kamikazde3113 (Telegram)"""
 	    await message.edit("С начала эпохи прошло\n\n" + "<b>" + str(time.time()) + "</b>")
 	async def yearcmd(self, message):
-	    await message.edit("Сейсчас 2020 но он более известный как \n\n" + "<b>Короновирусный год</b>")
+	    await message.edit("Сейчас 2020 но он более известный как \n\n" + "<b>Короновирусный год</b>")
